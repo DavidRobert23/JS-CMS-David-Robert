@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const admin = require('./admin'); // importăm din /admin/index.js
 const blog = require('./blog'); // importăm din /blog.js
+
 const populate = require('./populateDb');
 
 const app = express();
@@ -12,6 +13,7 @@ app.use(express.static(path.join(__dirname, 'public'))); // aici vom ține fiși
 
 app.use('/admin', admin); // aici legăm routerul admin de ruta /admin
 app.use('/', blog); // blogul va fi disponibil pe root (ex. localhost:3000/)
+
 
 app.listen(port, () => {
     console.log(`App started`);
