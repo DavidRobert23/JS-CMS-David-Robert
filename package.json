@@ -10,12 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Digital-Nation/JS-CMS-Victor-Locoman.git"
   },
-  "author": "Victor Locoman [victor.locoman@digitalnation.ro]",
+  "author": "David Robert",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongodb": "^3.6.2",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }

@@ -20,8 +20,3 @@ client
     module.exports.posts = posts;
     populate(posts);
   });
-
-
-const dbname = "app";
-
-//`mongodb+srv://${newn}:${pass}@cluster0.3tml4.mongodb.net/${dbname}?retryWrites=true&w=majority`;
